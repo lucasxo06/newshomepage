@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #c00;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .principal {
+            flex: 2;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .principal h2 {
+            color: #c00;
+            font-size: 28px;
+        }
+
+        .principal p {
+            font-size: 16px;
+        }
+
+        .lateral {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card {
+            position: relative;
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            filter: brightness(60%);
+        }
+
+        .card-texto {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            width: 90%;
+        }
+
+        .rotulo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: black;
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 5px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MINAS GERAIS</h1>
+    <div><button style="padding: 5px 10px; background-color: white; color: #c00; border: none; border-radius: 5px;">BUSCAR</button></div>
+</header>
+
+<div class="container">
+    <div class="principal">
+        <p><strong>Título inédito em MG</strong></p>
+        <h2>Unesco reconhece Parque Cavernas do Peruaçu como Patrimônio Mundial Natural</h2>
+
+        <img src="peruacu.jpg" alt="Cânion do Peruaçu" style="width: 100%; border-radius: 10px; margin: 15px 0;">
+
+        <p>Decisão foi tomada durante a 47ª Sessão do Comitê do Patrimônio Mundial, na França, neste domingo (13).</p>
+    </div>
+
+    </div>
+</div>
+
+</body>
+</html>
